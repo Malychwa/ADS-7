@@ -37,7 +37,6 @@ class TPQueue {
       throw std::string("Empty!");
     }
   }
-  
   void push(const T& data) {
     ITEM *temp = head;
     ITEM *item = create(data);
